@@ -1,13 +1,9 @@
 {
-  "name": "h5p-standalone",
+  "name": "@up360inc/h5p-standalone",
   "version": "2.1.5",
   "description": "Display H5P content as standalone frontend code, no server needed.",
   "main": "dist/main.bundle.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
-  },
   "devDependencies": {
     "@babel/core": "^7.13.15",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
@@ -52,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tunapanda/h5p-standalone.git"
+    "url": "git+https://github.com/up360inc/h5p-standalone.git"
   },
   "keywords": [
     "h5p"
