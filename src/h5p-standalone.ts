@@ -19,7 +19,7 @@ import {
     urlPath
 } from "./utils";
 
-interface Options {
+export interface Options {
     id?: string;
     title?: string;
 
@@ -67,20 +67,20 @@ interface Options {
     assetsRequestFetchOptions?: RequestInit;
 }
 
-interface H5PKeyPaths {
+export interface H5PKeyPaths {
     h5pJsonPath: string,
     contentJsonPath: string,
     librariesPath: string
 }
 
-interface LocalLibraryDependency {
+export interface LocalLibraryDependency {
     libraryFolderName: string;
     dependencies: string[];
     preloadedCss?: H5PLibraryDefinition['preloadedCss'];
     preloadedJs?: H5PLibraryDefinition['preloadedJs'];
 }
 
-interface PlayerFrameOptions {
+export interface PlayerFrameOptions {
     anchorElement: HTMLElement,
     contentId: string,
     embedType: Options['embedType'],

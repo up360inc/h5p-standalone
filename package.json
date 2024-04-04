@@ -3,6 +3,7 @@
   "version": "2.1.5",
   "description": "Display H5P content as standalone frontend code, no server needed.",
   "main": "dist/main.bundle.js",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
